@@ -2,24 +2,24 @@
 # -*- coding: utf-8 -*-
 # Copyright (C) Duncan Macleod (2017-2020)
 #
-# This file is part of GWpy.
+# This file is part of pyDischarge.
 #
-# GWpy is free software: you can redistribute it and/or modify
+# pyDischarge is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
 # the Free Software Foundation, either version 3 of the License, or
 # (at your option) any later version.
 #
-# GWpy is distributed in the hope that it will be useful,
+# pyDischarge is distributed in the hope that it will be useful,
 # but WITHOUT ANY WARRANTY; without even the implied warranty of
 # MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 # GNU General Public License for more details.
 #
 # You should have received a copy of the GNU General Public License
-# along with GWpy.  If not, see <http://www.gnu.org/licenses/>.
+# along with pyDischarge.  If not, see <http://www.gnu.org/licenses/>.
 
 """Calculating the SNR associated with a given astrophysical signal model
 
-The example :ref:`gwpy-example-signal-gw150914` showed us we can visually
+The example :ref:`pydischarge-example-signal-gw150914` showed us we can visually
 extract a signal from the noise using basic signal-processing techniques.
 
 However, an actual astrophysical search algorithm detects signals by
@@ -30,12 +30,12 @@ Using |pycbc|_ (the actual search code), we can do that.
 """
 
 __author__ = "Duncan Macleod <duncan.macleod@ligo.org>"
-__currentmodule__ = 'gwpy.timeseries'
+__currentmodule__ = 'pydischarge.timeseries'
 
 # First, as always, we fetch some of the public data from the LIGO Open
 # Science Center:
 
-from gwpy.timeseries import TimeSeries
+from pydischarge.timeseries import TimeSeries
 data = TimeSeries.fetch_open_data('H1', 1126259446, 1126259478)
 
 # and condition it by applying a highpass filter at 15 Hz
@@ -75,10 +75,10 @@ snrts = TimeSeries.from_pycbc(snr).abs()
 # .. note::
 #
 #    Here we have used the :meth:`~TimeSeries.to_pycbc` methods of the
-#    `~gwpy.timeseries.TimeSeries` and `~gwpy.frequencyseries.FrequencySeries`
-#    objects to convert from GWpy objects to something that PyCBC functions
+#    `~pydischarge.timeseries.TimeSeries` and `~pydischarge.frequencyseries.FrequencySeries`
+#    objects to convert from pyDischarge objects to something that PyCBC functions
 #    can understand, and then used the :meth:`~TimeSeries.from_pycbc` method
-#    to convert back to a GWpy object.
+#    to convert back to a pyDischarge object.
 
 # We can plot the SNR `TimeSeries` around the region of interest:
 plot = snrts.plot()

@@ -1,13 +1,13 @@
-.. currentmodule:: gwpy.timeseries
+.. currentmodule:: pydischarge.timeseries
 
-.. _gwpy-signal-processing:
+.. _pydischarge-signal-processing:
 
 #################
 Signal processing
 #################
 
 In a wide-array of applications, the original data recorded from a digital system must be manipulated in order to extract the greatest amount of information.
-GWpy provides a suite of functions to simplify and extend the excellent digital signal processing suite in :mod:`scipy.signal`.
+pyDischarge provides a suite of functions to simplify and extend the excellent digital signal processing suite in :mod:`scipy.signal`.
 
 ===========================
 Spectral density estimation
@@ -16,11 +16,11 @@ Spectral density estimation
 `Spectral density estimation <https://en.wikipedia.org/wiki/Spectral_density>`_
 is a common way of investigating the frequency-domain content of a time-domain
 signal.
-GWpy provides wrappers of power spectral density (PSD) estimation methods
+pyDischarge provides wrappers of power spectral density (PSD) estimation methods
 from :mod:`scipy.signal` to simplify calculating a
-:class:`~gwpy.frequencyseries.FrequencySeries` from a :class:`TimeSeries`.
+:class:`~pydischarge.frequencyseries.FrequencySeries` from a :class:`TimeSeries`.
 
-The :mod:`gwpy.signal.spectral` sub-package provides the following
+The :mod:`pydischarge.signal.spectral` sub-package provides the following
 PSD estimation averaging methods:
 
 - ``'bartlett'`` - mean average of non-overlapping periodograms
@@ -65,7 +65,7 @@ Available methods include:
 
 Each of the above methods eventually calls out to :meth:`TimeSeries.filter` to apply a digital linear filter, normally via cascaded second-order-sections (requires `scipy >= 0.16`).
 
-For a worked example of how to filter LIGO data to discover a gravitational-wave signal, see the example :ref:`gwpy-example-signal-gw150914`.
+For a worked example of how to filter LIGO data to discover a gravitational-wave signal, see the example :ref:`pydischarge-example-signal-gw150914`.
 
 ==========================
 Frequency-domain filtering
@@ -84,28 +84,28 @@ Available methods include:
    TimeSeries.rayleigh_spectrum
    TimeSeries.rayleigh_spectrogram
 
-For a worked example of how to load data and calculate the Amplitude Spectral Density `~gwpy.frequencyseries.FrequencySeries`, see the example :ref:`gwpy-example-frequencyseries-hoff`.
+For a worked example of how to load data and calculate the Amplitude Spectral Density `~pydischarge.frequencyseries.FrequencySeries`, see the example :ref:`pydischarge-example-frequencyseries-hoff`.
 
-.. _gwpy-filter-design:
+.. _pydischarge-filter-design:
 
 =============
 Filter design
 =============
 
-The :mod:`gwpy.signal` provides a number of filter design methods which, when combined with the `~gwpy.plot.BodePlot` visualisation, can be used to create a number of common filters:
+The :mod:`pydischarge.signal` provides a number of filter design methods which, when combined with the `~pydischarge.plot.BodePlot` visualisation, can be used to create a number of common filters:
 
 .. autosummary::
    :nosignatures:
 
-   ~gwpy.signal.filter_design.lowpass
-   ~gwpy.signal.filter_design.highpass
-   ~gwpy.signal.filter_design.bandpass
-   ~gwpy.signal.filter_design.notch
-   ~gwpy.signal.filter_design.concatenate_zpks
+   ~pydischarge.signal.filter_design.lowpass
+   ~pydischarge.signal.filter_design.highpass
+   ~pydischarge.signal.filter_design.bandpass
+   ~pydischarge.signal.filter_design.notch
+   ~pydischarge.signal.filter_design.concatenate_zpks
 
 Each of these will return filter coefficients that can be passed directly into `~TimeSeries.zpk` (default for analogue filters) or `~TimeSeries.filter` (default for digital filters).
 
-For a worked example of how to filter LIGO data to discover a gravitational-wave signal, see the example :ref:`gwpy-example-signal-gw150914`.
+For a worked example of how to filter LIGO data to discover a gravitational-wave signal, see the example :ref:`pydischarge-example-signal-gw150914`.
 
 **Cross-channel correlations:**
 
@@ -115,20 +115,20 @@ For a worked example of how to filter LIGO data to discover a gravitational-wave
    TimeSeries.coherence
    TimeSeries.coherence_spectrogram
 
-For a worked example of how to compare channels like this, see the example :ref:`gwpy-example-frequencyseries-coherence`.
+For a worked example of how to compare channels like this, see the example :ref:`pydischarge-example-frequencyseries-coherence`.
 
-.. currentmodule:: gwpy.signal
+.. currentmodule:: pydischarge.signal
 
 =============
 Reference/API
 =============
 
-.. automethod:: gwpy.signal.filter_design.bandpass
+.. automethod:: pydischarge.signal.filter_design.bandpass
 
-.. automethod:: gwpy.signal.filter_design.lowpass
+.. automethod:: pydischarge.signal.filter_design.lowpass
 
-.. automethod:: gwpy.signal.filter_design.highpass
+.. automethod:: pydischarge.signal.filter_design.highpass
 
-.. automethod:: gwpy.signal.filter_design.notch
+.. automethod:: pydischarge.signal.filter_design.notch
 
-.. automethod:: gwpy.signal.filter_design.concatenate_zpks
+.. automethod:: pydischarge.signal.filter_design.concatenate_zpks

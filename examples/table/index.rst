@@ -1,4 +1,4 @@
-.. currentmodule:: gwpy.table
+.. currentmodule:: pydischarge.table
 
 #####################
 Tabular data examples

@@ -1,4 +1,4 @@
-.. currentmodule:: gwpy.spectrogram
+.. currentmodule:: pydischarge.spectrogram
 
 ######################
 `Spectrogram` examples

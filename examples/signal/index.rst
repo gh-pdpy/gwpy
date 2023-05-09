@@ -1,4 +1,4 @@
-.. currentmodule:: gwpy.signal
+.. currentmodule:: pydischarge.signal
 
 ##########################
 Signal processing examples

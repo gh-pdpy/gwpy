@@ -58,7 +58,7 @@ GWOSC_LOCATE_KWARGS = (
 
 def _download_file(url, cache=None, verbose=False):
     if cache is None:
-        cache = bool_env('GWPY_CACHE', False)
+        cache = bool_env('PYDISCHARGE_CACHE', False)
     return get_readable_fileobj(url, cache=cache, show_progress=verbose)
 
 

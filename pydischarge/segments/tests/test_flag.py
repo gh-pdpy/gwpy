@@ -528,9 +528,9 @@ class TestDataQualityFlag(object):
         # flag not in database
         with pytest.raises(
             HTTPError,
-            match=r"^HTTP Error 404: Not found \[X1:GWPY-TEST:0\]$",
+            match=r"^HTTP Error 404: Not found \[X1:PYDISCHARGE-TEST:0\]$",
         ):
-            self.TEST_CLASS.query_dqsegdb('X1:GWPY-TEST:0', 0, 10)
+            self.TEST_CLASS.query_dqsegdb('X1:PYDISCHARGE-TEST:0', 0, 10)
 
         # bad syntax
         with pytest.raises(ValueError):

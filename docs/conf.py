@@ -45,21 +45,21 @@ STATIC_DIRNAME = "_static"
 
 # use caching in pyDischarge calls
 os.environ.update({
-    "GWPY_CACHE": "true",
+    "PYDISCHARGE_CACHE": "true",
 })
 
 # -- versions ---------------
 
-GWPY_VERSION = pydischarge.__version__
+PYDISCHARGE_VERSION = pydischarge.__version__
 
 # parse version number to get git reference
 _setuptools_scm_version_regex = re.compile(
     r"\+g(\w+)(?:\Z|\.)",
 )
-if match := _setuptools_scm_version_regex.search(GWPY_VERSION):
-    GWPY_GIT_REF, = match.groups()
+if match := _setuptools_scm_version_regex.search(PYDISCHARGE_VERSION):
+    PYDISCHARGE_GIT_REF, = match.groups()
 else:
-    GWPY_GIT_REF = 'v{}'.format(GWPY_VERSION)
+    PYDISCHARGE_GIT_REF = 'v{}'.format(PYDISCHARGE_VERSION)
 
 # -- matplotlib -------------
 
@@ -82,8 +82,8 @@ copyright = ' and '.join((
     '2013, 2017-2021 Cardiff University',
     '2013-2017 Lousiana State University',
 ))
-version = "dev" if ".dev" in GWPY_VERSION else GWPY_VERSION
-release = GWPY_VERSION
+version = "dev" if ".dev" in PYDISCHARGE_VERSION else PYDISCHARGE_VERSION
+release = PYDISCHARGE_VERSION
 
 # extension modules
 # DEVNOTE: please make sure and add 3rd-party dependencies to
@@ -304,7 +304,7 @@ def linkcode_resolve(domain, info):
         return None
 
     return "https://github.com/pydischarge/pydischarge/tree/{}/pydischarge/{}".format(
-        GWPY_GIT_REF,
+        PYDISCHARGE_GIT_REF,
         fileref,
     )
 

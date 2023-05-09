@@ -31,7 +31,7 @@ __author__ = "Duncan Macleod <duncan.macleod@ligo.org>"
 # the below colours are designed to work well for the colour-blind, as well
 # as in grayscale, so are recommended for publications
 
-GWPY_COLORS = {
+PYDISCHARGE_COLORS = {
     'geo600': '#222222',  # dark gray
     'kagra': '#ffb200',  # yellow/orange
     'ligo-hanford': '#ee0000',  # red
@@ -49,11 +49,11 @@ _GWO_PREFIX = {
     'ligo-livingston': 'L1',
     'virgo': 'V1',
 }
-GW_OBSERVATORY_COLORS = {_GWO_PREFIX[n]: GWPY_COLORS[n] for n in GWPY_COLORS}
+GW_OBSERVATORY_COLORS = {_GWO_PREFIX[n]: PYDISCHARGE_COLORS[n] for n in PYDISCHARGE_COLORS}
 
 # set named colour upstream in matplotlib, so users can specify as
 # e.g. plot(..., color='pydischarge:ligo-hanford')
-color_map.update({f"pydischarge:{name}": col for name, col in GWPY_COLORS.items()})
+color_map.update({f"pydischarge:{name}": col for name, col in PYDISCHARGE_COLORS.items()})
 
 
 # -- colour utilities ---------------------------------------------------------

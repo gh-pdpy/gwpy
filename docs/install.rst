@@ -62,7 +62,7 @@ pyDischarge has the following strict requirements:
 
 All of these will be installed using any of the above install methods.
 
-Gwpy also depends on the following other packages for optional features:
+pyDischarge also depends on the following other packages for optional features:
 
 .. toctree::
    :glob:

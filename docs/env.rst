@@ -26,13 +26,13 @@ The following variables are defined:
 +---------------------+---------+---------------------------------------------+
 | Variable            | Default | Purpose                                     |
 +=====================+=========+=============================================+
-| ``GWPY_CACHE``      | `False` | Whether to cache downloaded files from      |
+| ``PYDISCHARGE_CACHE``      | `False` | Whether to cache downloaded files from      |
 |                     |         | GWOSC to prevent repeated downloads         |
 +---------------------+---------+---------------------------------------------+
-| ``GWPY_RCPARAMS``   | `True`  | Whether to update `matplotlib.rcParams`     |
+| ``PYDISCHARGE_RCPARAMS``   | `True`  | Whether to update `matplotlib.rcParams`     |
 |                     |         | with custom pyDischarge defaults for rendering     |
 |                     |         | images                                      |
 +---------------------+---------+---------------------------------------------+
-| ``GWPY_USETEX``     | `False` | Whether to use LaTeX when rendering images, |
-|                     |         | only used when ``GWPY_RCPARAMS`` is `True`  |
+| ``PYDISCHARGE_USETEX``     | `False` | Whether to use LaTeX when rendering images, |
+|                     |         | only used when ``PYDISCHARGE_RCPARAMS`` is `True`  |
 +---------------------+---------+---------------------------------------------+

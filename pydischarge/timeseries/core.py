@@ -423,7 +423,7 @@ class TimeSeriesBase(Series):
         cache : `bool`, optional
             save/read a local copy of the remote URL, default: `False`;
             useful if the same remote data are to be accessed multiple times.
-            Set `GWPY_CACHE=1` in the environment to auto-cache.
+            Set `PYDISCHARGE_CACHE=1` in the environment to auto-cache.
 
         **kwargs
             any other keyword arguments are passed to the `TimeSeries.read`

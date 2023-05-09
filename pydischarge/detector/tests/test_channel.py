@@ -105,11 +105,11 @@ class TestChannel(object):
         assert new.dtype is None
 
     def test_new(self):
-        new = self.TEST_CLASS('X1:GWPY-TEST_CHANNEL_NAME',
+        new = self.TEST_CLASS('X1:PYDISCHARGE-TEST_CHANNEL_NAME',
                               sample_rate=64, unit='m')
-        assert str(new) == 'X1:GWPY-TEST_CHANNEL_NAME'
+        assert str(new) == 'X1:PYDISCHARGE-TEST_CHANNEL_NAME'
         assert new.ifo == 'X1'
-        assert new.system == 'GWPY'
+        assert new.system == 'PYDISCHARGE'
         assert new.subsystem == 'TEST'
         assert new.signal == 'CHANNEL_NAME'
         assert new.sample_rate == 64 * units.Hz
@@ -408,7 +408,7 @@ class TestChannelList(object):
     TEST_CLASS = ChannelList
     ENTRY_CLASS = Channel
 
-    NAMES = ['X1:GWPY-CHANNEL_1', 'X1:GWPY-CHANNEL_2', 'X1:GWPY-CHANNEL_3']
+    NAMES = ['X1:PYDISCHARGE-CHANNEL_1', 'X1:PYDISCHARGE-CHANNEL_2', 'X1:PYDISCHARGE-CHANNEL_3']
     SAMPLE_RATES = [1, 4, 8]
 
     @classmethod
@@ -430,13 +430,13 @@ class TestChannelList(object):
             instance.find('blah')
 
     def test_sieve(self, instance):
-        cl = instance.sieve(name='GWPY-CHANNEL')
+        cl = instance.sieve(name='PYDISCHARGE-CHANNEL')
         assert cl == instance
 
-        cl = instance.sieve(name='X1:GWPY-CHANNEL_2', exact_match=True)
+        cl = instance.sieve(name='X1:PYDISCHARGE-CHANNEL_2', exact_match=True)
         assert cl[0] is instance[1]
 
-        cl = instance.sieve(name='GWPY-CHANNEL', sample_range=[2, 16])
+        cl = instance.sieve(name='PYDISCHARGE-CHANNEL', sample_range=[2, 16])
         assert cl == instance[1:]
 
     @pytest.mark.requires("nds2")

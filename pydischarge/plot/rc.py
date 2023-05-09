@@ -38,7 +38,7 @@ __author__ = "Duncan Macleod <duncan.macleod@ligo.org>"
 # -- custom rc ----------------------------------------------------------------
 
 # set default params
-GWPY_RCPARAMS = RcParams(**{
+PYDISCHARGE_RCPARAMS = RcParams(**{
     # axes boundary colours
     'axes.edgecolor': 'gray',
     # grid
@@ -68,7 +68,7 @@ GWPY_RCPARAMS = RcParams(**{
 })
 
 # set latex options
-GWPY_TEX_RCPARAMS = RcParams(**{
+PYDISCHARGE_TEX_RCPARAMS = RcParams(**{
     # use latex styling
     'text.usetex': True,
     'text.latex.preamble': PREAMBLE,
@@ -84,8 +84,8 @@ def rc_params(usetex=None):
     """Returns a new `matplotlib.RcParams` with updated pyDischarge parameters
 
     The updated parameters are globally stored as
-    `pydischarge.plot.rc.GWPY_RCPARAMS`, with the updated TeX parameters as
-    `pydischarge.plot.rc.GWPY_TEX_RCPARAMS`.
+    `pydischarge.plot.rc.PYDISCHARGE_RCPARAMS`, with the updated TeX parameters as
+    `pydischarge.plot.rc.PYDISCHARGE_TEX_RCPARAMS`.
 
     .. note::
 
@@ -96,7 +96,7 @@ def rc_params(usetex=None):
     ----------
     usetex : `bool`, `None`
         value to set for `text.usetex`; if `None` determine automatically
-        using the ``GWPY_USETEX`` environment variable, and whether `tex`
+        using the ``PYDISCHARGE_USETEX`` environment variable, and whether `tex`
         is available on the system. If `True` is given (or determined)
         a number of other parameters are updated to improve TeX formatting.
 
@@ -107,17 +107,17 @@ def rc_params(usetex=None):
     >>> matplotlib.rcParams.update(pydischarge_rc_params(usetex=False))
     """
     # if user didn't specify to use tex or not, guess based on
-    # the `GWPY_USETEX` environment variable, or whether tex is
+    # the `PYDISCHARGE_USETEX` environment variable, or whether tex is
     # installed at all.
     if usetex is None:
         usetex = bool_env(
-            'GWPY_USETEX',
+            'PYDISCHARGE_USETEX',
             default=rcParams['text.usetex'] or tex.has_tex())
 
     # build RcParams from matplotlib.rcParams with pyDischarge extras
-    rcp = GWPY_RCPARAMS.copy()
+    rcp = PYDISCHARGE_RCPARAMS.copy()
     if usetex:
-        rcp.update(GWPY_TEX_RCPARAMS)
+        rcp.update(PYDISCHARGE_TEX_RCPARAMS)
     return rcp
 
 

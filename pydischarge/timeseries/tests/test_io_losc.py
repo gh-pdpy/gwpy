@@ -32,7 +32,7 @@ from .. import (
     TimeSeries,
 )
 
-GWPY_CACHE = bool_env("GWPY_CACHE", False)
+PYDISCHARGE_CACHE = bool_env("PYDISCHARGE_CACHE", False)
 
 
 @pytest.fixture(scope="module")
@@ -46,7 +46,7 @@ def gw150914_hdf5():
         sample_rate=4096,
         format="hdf5",
     )
-    return download_file(url, cache=GWPY_CACHE)
+    return download_file(url, cache=PYDISCHARGE_CACHE)
 
 
 def test_read_hdf5_gwosc(gw150914_hdf5):

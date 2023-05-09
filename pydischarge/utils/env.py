@@ -62,13 +62,13 @@ def bool_env(key, default=False):
     --------
     >>> import os
     >>> from pydischarge.utils.env import bool_env
-    >>> os.environ['GWPY_VALUE'] = 'yes'
-    >>> print(bool_env('GWPY_VALUE'))
+    >>> os.environ['PYDISCHARGE_VALUE'] = 'yes'
+    >>> print(bool_env('PYDISCHARGE_VALUE'))
     True
-    >>> os.environ['GWPY_VALUE'] = 'something else'
-    >>> print(bool_env('GWPY_VALUE'))
+    >>> os.environ['PYDISCHARGE_VALUE'] = 'something else'
+    >>> print(bool_env('PYDISCHARGE_VALUE'))
     False
-    >>> print(bool_env('GWPY_VALUE2'))
+    >>> print(bool_env('PYDISCHARGE_VALUE2'))
     False
     """
     try:

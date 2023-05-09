@@ -1,22 +1,22 @@
 # -*- coding: utf-8 -*-
 # Copyright (C) Duncan Macleod (2017-2020)
 #
-# This file is part of GWpy.
+# This file is part of pyDischarge.
 #
-# GWpy is free software: you can redistribute it and/or modify
+# pyDischarge is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
 # the Free Software Foundation, either version 3 of the License, or
 # (at your option) any later version.
 #
-# GWpy is distributed in the hope that it will be useful,
+# pyDischarge is distributed in the hope that it will be useful,
 # but WITHOUT ANY WARRANTY; without even the implied warranty of
 # MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 # GNU General Public License for more details.
 #
 # You should have received a copy of the GNU General Public License
-# along with GWpy.  If not, see <http://www.gnu.org/licenses/>.
+# along with pyDischarge.  If not, see <http://www.gnu.org/licenses/>.
 
-"""Packaging utilities for the GWpy package
+"""Packaging utilities for the pyDischarge package
 """
 
 import re
@@ -87,7 +87,7 @@ def update_all_copyright(year=CURRENT_YEAR):
         "git", "grep", "-l", "-E", r"(\#|\*) Copyright",
     ]).strip().splitlines()
     ignore = {
-        "gwpy/utils/sphinx/epydoc.py",
+        "pydischarge/utils/sphinx/epydoc.py",
         "docs/_static/js/copybutton.js",
     }
     for path in files:

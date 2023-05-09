@@ -21,7 +21,7 @@ exclude =
 	.git/,
 	build/,
 	docs/,
-	gwpy/_version.py,
+	pydischarge/_version.py,
 	venv/,
 per-file-ignores =
 	# ignore unused import in __init__

@@ -35,6 +35,6 @@ exclude_paths:
 - "tools/*"
 - "docs/*"
 - "examples/*"
-- "gwpy/_version.py"
+- "pydischarge/_version.py"
 - "**/tests/"
-- "gwpy/utils/sphinx/epydoc.py"
+- "pydischarge/utils/sphinx/epydoc.py"

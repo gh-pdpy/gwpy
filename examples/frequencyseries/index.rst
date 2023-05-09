@@ -1,4 +1,4 @@
-.. currentmodule:: gwpy.frequencyseries
+.. currentmodule:: pydischarge.frequencyseries
 
 ##########################
 `FrequencySeries` examples

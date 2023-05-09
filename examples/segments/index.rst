@@ -1,4 +1,4 @@
-.. currentmodule:: gwpy.segments
+.. currentmodule:: pydischarge.segments
 
 ######################
 `Segments` examples

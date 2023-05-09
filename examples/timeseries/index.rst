@@ -1,4 +1,4 @@
-.. currentmodule:: gwpy.timeseries
+.. currentmodule:: pydischarge.timeseries
 
 #####################
 `TimeSeries` examples

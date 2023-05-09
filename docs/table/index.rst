@@ -1,6 +1,6 @@
-.. currentmodule:: gwpy.table
+.. currentmodule:: pydischarge.table
 
-.. _gwpy-table:
+.. _pydischarge-table:
 
 ###########
 Data tables
@@ -14,7 +14,7 @@ noise transients (glitches).
 The :class:`EventTable`
 =======================
 
-GWpy extends the (excellent) :class:`~astropy.table.Table` from
+pyDischarge extends the (excellent) :class:`~astropy.table.Table` from
 `astropy` by providing the :class:`EventTable`.
 
 This object extends the functionality of the regular
@@ -29,9 +29,9 @@ the basic `Table` is the import:
 
 .. code-block:: python
    :caption: Importing the `EventTable`
-   :name: gwpy-table-import
+   :name: pydischarge-table-import
 
-   >>> from gwpy.table import EventTable
+   >>> from pydischarge.table import EventTable
 
 ======================
 Reading/writing tables

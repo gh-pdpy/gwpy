@@ -1,10 +1,10 @@
-.. currentmodule:: gwpy.plot
+.. currentmodule:: pydischarge.plot
 
 ##################
-Log scales in GWpy
+Log scales in pyDischarge
 ##################
 
-GWpy overrides the default :mod:`axis tick formatters <matplotlib.ticker>`
+pyDischarge overrides the default :mod:`axis tick formatters <matplotlib.ticker>`
 for logarithmic scales to one with the following logic:
 
 - ``0.1 <= x <= 1000`` and ``x`` has less than 2 decimal places, just
@@ -17,7 +17,7 @@ This results in plots that have slightly nicer default ticks:
    :include-source:
    :context: reset
 
-   >>> import gwpy  # <-- import anything from gwpy to active custom formatter
+   >>> import pydischarge  # <-- import anything from pydischarge to active custom formatter
    >>> import numpy
    >>> from matplotlib import pyplot
    >>> fig = pyplot.figure()

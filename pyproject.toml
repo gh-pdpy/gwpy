@@ -189,6 +189,8 @@ ignore_directives = [
   "tabbed",
   # sphinxcontrib-programoutput
   "command-output",
+
+  "pydischarge",
 ]
 ignore_roles = [
   # doxylink

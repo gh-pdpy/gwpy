@@ -49,6 +49,7 @@ dependencies = [
   "requests",
   "scipy >=1.2.0",
   "tqdm >=4.10.0",
+  "pydischarge",
 ]
 
 # dynamic properties set by tools
@@ -80,6 +81,7 @@ docs = [
   "sphinx-immaterial >=0.7.3",
   "sphinx-panels >=0.6.0",
   "sphinxcontrib-programoutput",
+  "pydischarge",
 ]
 # development environments
 dev = [

@@ -131,7 +131,7 @@ html_theme_options = {
     # metadata
     "repo_name": "pyDischarge",
     "repo_type": "github",
-    "repo_url": "https://github.com/pydischarge/pydischarge",
+    "repo_url": "https://github.com/pyDischarge/pydischarge",
     "edit_uri": "blob/main/docs",
     "globaltoc_collapse": True,
     # features
@@ -303,7 +303,7 @@ def linkcode_resolve(domain, info):
     ):
         return None
 
-    return "https://github.com/pydischarge/pydischarge/tree/{}/pydischarge/{}".format(
+    return "https://github.com/pyDischarge/pydischarge/tree/{}/pydischarge/{}".format(
         PYDISCHARGE_GIT_REF,
         fileref,
     )

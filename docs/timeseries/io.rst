@@ -137,7 +137,7 @@ To read data from a GWF file, pass the input file path (or paths) and the name o
 
 .. note::
 
-   The ``HLV-HW100916-968654552-1.gwf`` file is included with the pyDischarge source under `/pydischarge/testing/data/ <https://github.com/pydischarge/pydischarge/tree/main/pydischarge/testing/data>`_.
+   The ``HLV-HW100916-968654552-1.gwf`` file is included with the pyDischarge source under `/pydischarge/testing/data/ <https://github.com/pyDischarge/pydischarge/tree/main/pydischarge/testing/data>`_.
 
 Reading a `StateVector` uses the same syntax:
 

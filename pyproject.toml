@@ -109,10 +109,10 @@ conda = [
 pydischarge-plot = "pydischarge.cli.pydischarge_plot:main"
 
 [project.urls]
-"Bug Tracker" = "https://github.com/pydischarge/pydischarge/issues"
+"Bug Tracker" = "https://github.com/pyDischarge/pydischarge/issues"
 "Discussion Forum" = "https://pydischarge.slack.com"
-"Documentation" = "https://pydischarge.github.io/docs/"
-"Source Code" = "https://github.com/pydischarge/pydischarge"
+"Documentation" = "https://pyDischarge.github.io/docs/"
+"Source Code" = "https://github.com/pyDischarge/pydischarge"
 
 [tool.setuptools]
 license-files = [ "LICENSE" ]

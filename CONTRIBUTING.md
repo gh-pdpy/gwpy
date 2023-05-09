@@ -37,18 +37,18 @@ contributing guide.
 ## Development model
 
 Contributions to pyDischarge are made via pull requests from GitHub users' forks of
-the main [pydischarge repositories](https://github.com/pydischarge/pydischarge), following the
+the main [pydischarge repositories](https://github.com/pyDischarge/pydischarge), following the
 [GitHub flow](https://guides.github.com/introduction/flow/) workflow.
 The basic idea is that all changes are proposed using a dedicated _feature_
 branch:
 
 - create the fork (if needed) by clicking _Fork_ in the upper-right corner of
-  <https://github.com/pydischarge/pydischarge/> - this only needs to be done once, ever
+  <https://github.com/pyDischarge/pydischarge/> - this only needs to be done once, ever
 
 - clone the main repo, calling it `upstream` in the git configuration:
 
   ```bash
-  git clone https://github.com/pydischarge/pydischarge.git pydischarge --origin upstream
+  git clone https://github.com/pyDischarge/pydischarge.git pydischarge --origin upstream
   cd pydischarge
   ```
 

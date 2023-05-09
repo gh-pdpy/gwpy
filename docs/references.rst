@@ -25,7 +25,7 @@
 .. _ligo-segments: https://lscsoft.docs.ligo.org/ligo-segments/
 
 .. |ligotimegps| replace:: `ligotimegps`
-.. _ligotimegps: https://github.com/pydischarge/ligotimegps/
+.. _ligotimegps: https://github.com/pyDischarge/ligotimegps/
 
 .. |matplotlib| replace:: `matplotlib`
 .. _matplotlib: https://matplotlib.org/

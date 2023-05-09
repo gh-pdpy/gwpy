@@ -6,7 +6,7 @@ time-domain and frequency-domain data produced by the LIGO and Virgo
 observatories and their analyses, with easy-to-follow tutorials at each
 step.
 
-<https://pydischarge.github.io>
+<https://pyDischarge.github.io>
 
 # Release status
 
@@ -19,7 +19,7 @@ step.
 
 # Development status
 
-[![Build status](https://github.com/pydischarge/pydischarge/actions/workflows/build.yml/badge.svg?branch=main)](https://github.com/pydischarge/pydischarge/actions?query=branch%3Amain)
+[![Build status](https://github.com/pyDischarge/pydischarge/actions/workflows/build.yml/badge.svg?branch=main)](https://github.com/pyDischarge/pydischarge/actions?query=branch%3Amain)
 [![Coverage status](https://codecov.io/gh/pydischarge/pydischarge/branch/main/graph/badge.svg)](https://codecov.io/gh/pydischarge/pydischarge)
 [![Maintainability](https://api.codeclimate.com/v1/badges/2cf14445b3e070133745/maintainability)](https://codeclimate.com/github/pydischarge/pydischarge/maintainability)
 
@@ -45,4 +45,4 @@ python -c "import pydischarge; print(pydischarge.__version__)"
 
 # License
 
-pyDischarge is released under the GNU General Public License v3.0 or later, see [here](https://choosealicense.com/licenses/gpl-3.0/) for a description of this license, or see the [LICENSE](https://github.com/pydischarge/pydischarge/blob/main/LICENSE) file for the full text.
+pyDischarge is released under the GNU General Public License v3.0 or later, see [here](https://choosealicense.com/licenses/gpl-3.0/) for a description of this license, or see the [LICENSE](https://github.com/pyDischarge/pydischarge/blob/main/LICENSE) file for the full text.

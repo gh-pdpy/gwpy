@@ -75,7 +75,7 @@ Step-by-step
 
 #. **Draft a release on GitHub**
 
-   * Go to https://github.com/pydischarge/pydischarge/releases/new
+   * Go to https://github.com/pyDischarge/pydischarge/releases/new
    * Use ``vX.Y.Z`` as the *Tag version*
    * Use X.Y.Z as the *Release title*
    * Copy the tag message into the text box to serve as release notes
@@ -93,7 +93,7 @@ Step-by-step
 
    .. code-block:: bash
 
-      cd /home/duncan.macleod/pydischarge-nightly-build/pydischarge.github.io/docs
+      cd /home/duncan.macleod/pydischarge-nightly-build/pyDischarge.github.io/docs
       unlink stable && ln -s X.Y.Z stable
       sed -i 's/0.9.9/X.Y.Z/g' index.html
 
@@ -108,7 +108,7 @@ Step-by-step
       git push --signed=if-asked  # <- this step needs an SSH key
 
    It should take ~5 minutes for the release documentation to actually
-   appear on https://pydischarge.github.io/docs/
+   appear on https://pyDischarge.github.io/docs/
 
 ==============
 Linked updates

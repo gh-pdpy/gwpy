@@ -9,7 +9,7 @@ jobs:
     - uses: actions/checkout@v3
     - name: Install dependencies
       run: |
-        pip install sphinx sphinx_rtd_theme sphinx_automodapi sphinx_panels sphinxcontrib.programoutput sphinx_immaterial matplotlib numpydoc pydischarge
+        pip install sphinx sphinx_rtd_theme sphinx_automodapi sphinx_panels sphinxcontrib.programoutput sphinx_immaterial matplotlib numpydoc pydischarge 
     - name: Build HTML
       uses: ammaraskar/sphinx-action@master
     - name: Upload artifacts

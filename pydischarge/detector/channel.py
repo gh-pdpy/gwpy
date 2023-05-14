@@ -58,7 +58,7 @@ class Channel(object):
     frequency_range : `tuple` of `float`
         [low, high) spectral frequency range of interest for this channel
     safe : `bool`, optional
-        is this channel 'safe' to use as a witness of non-gravitational-wave
+        is this channel 'safe' to use as a witness of non-partial discharge
         noise in the interferometer
     dtype : `numpy.dtype`, optional
         numeric type of data for this channel

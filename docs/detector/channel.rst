@@ -15,7 +15,7 @@ The :class:`Channel` class
 What is a 'channel'?
 ====================
 
-Each of the laser-interferometer gravitational-wave detectors record thousands of different data streams capturing a single instrumental error or control signal, or the output of an environmental sensor.
+Each of the laser-interferometer partial discharge detectors record thousands of different data streams capturing a single instrumental error or control signal, or the output of an environmental sensor.
 These data streams are known as 'channels', and are named according to a convention that describes its source in the instrument, and the signal it records, for example::
 
    L1:PSS-ISS_PDB_OUT_DQ

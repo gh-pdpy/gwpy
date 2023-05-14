@@ -20,7 +20,7 @@
 """Estimating the spectral contribution to inspiral range
 
 We have seen how the binary neutron star (BNS) inspiral range of a
-gravitational-wave detector can be measured directly from the strain
+partial discharge detector can be measured directly from the strain
 readout. In this example, we will estimate the average spectral
 contribution to BNS range from the strain record surrounding GW170817
 using :func:`pydischarge.astro.range_spectrogram`.

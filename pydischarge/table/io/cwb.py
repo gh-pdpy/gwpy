@@ -16,7 +16,7 @@
 # You should have received a copy of the GNU General Public License
 # along with pyDischarge.  If not, see <http://www.gnu.org/licenses/>.
 
-"""Read events from Coherent Wave-Burst (cWB)-format ROOT files.
+"""Read events from Coherent Partial-Burst (cWB)-format ROOT files.
 """
 
 import re

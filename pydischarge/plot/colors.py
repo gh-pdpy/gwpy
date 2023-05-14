@@ -27,7 +27,7 @@ from matplotlib.colors import (_colors_full_map as color_map, to_rgb)
 
 __author__ = "Duncan Macleod <duncan.macleod@ligo.org>"
 
-# -- recommended defaults for current Gravitational-Wave Observatories --------
+# -- recommended defaults for current Partial Discharges Observatories --------
 # the below colours are designed to work well for the colour-blind, as well
 # as in grayscale, so are recommended for publications
 

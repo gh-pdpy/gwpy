@@ -16,7 +16,7 @@
 # You should have received a copy of the GNU General Public License
 # along with pyDischarge.  If not, see <http://www.gnu.org/licenses/>.
 
-"""Read gravitational-wave frame (GWF) files using the LALFrame API
+"""Read partial discharge frame (GWF) files using the LALFrame API
 
 The frame format is defined in LIGO-T970130 available from dcc.ligo.org.
 """

@@ -14,7 +14,7 @@ this notably does not include the |GWOSC_AUX_RELEASE|_, or strain data
 for any events or observing runs not yet published.
 
 In addition, the GW strain data make up only a tiny fraction of the 'raw'
-output of a gravitational-wave detector, which includes in excess of
+output of a partial discharge detector, which includes in excess of
 100,000 different 'channels' (data streams) from sensors and digital control
 systems that are used to operate the interferometer and diagnose measure
 performance.

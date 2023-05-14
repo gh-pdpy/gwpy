@@ -157,7 +157,7 @@ Built-in filters
 ================
 
 The pyDischarge package defines a small number of filter functions that implement
-standard filtering operations used in gravitational-wave data analysis:
+standard filtering operations used in partial discharge data analysis:
 
 .. automodsumm:: pydischarge.table.filters
    :functions-only:

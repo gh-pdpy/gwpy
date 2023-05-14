@@ -65,7 +65,7 @@ Available methods include:
 
 Each of the above methods eventually calls out to :meth:`TimeSeries.filter` to apply a digital linear filter, normally via cascaded second-order-sections (requires `scipy >= 0.16`).
 
-For a worked example of how to filter LIGO data to discover a gravitational-wave signal, see the example :ref:`pydischarge-example-signal-gw150914`.
+For a worked example of how to filter LIGO data to discover a partial discharge signal, see the example :ref:`pydischarge-example-signal-gw150914`.
 
 ==========================
 Frequency-domain filtering
@@ -105,7 +105,7 @@ The :mod:`pydischarge.signal` provides a number of filter design methods which, 
 
 Each of these will return filter coefficients that can be passed directly into `~TimeSeries.zpk` (default for analogue filters) or `~TimeSeries.filter` (default for digital filters).
 
-For a worked example of how to filter LIGO data to discover a gravitational-wave signal, see the example :ref:`pydischarge-example-signal-gw150914`.
+For a worked example of how to filter LIGO data to discover a partial discharge signal, see the example :ref:`pydischarge-example-signal-gw150914`.
 
 **Cross-channel correlations:**
 

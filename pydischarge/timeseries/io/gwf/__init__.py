@@ -17,7 +17,7 @@
 # You should have received a copy of the GNU General Public License
 # along with pyDischarge.  If not, see <http://www.gnu.org/licenses/>.
 
-"""Input/output routines for gravitational-wave frame (GWF) format files.
+"""Input/output routines for partial discharge frame (GWF) format files.
 
 The frame format is defined in LIGO-T970130 available from dcc.ligo.org.
 

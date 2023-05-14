@@ -24,9 +24,9 @@ One of the most useful tools for visualising short-duration features in a
 <https://en.wikipedia.org/wiki/Constant-Q_transform>`_.
 This tool is routinely used by data analysts to produce time-frequency maps of
 both transient noise (glitches) and astrophysical signals from ground-based
-gravitational-wave detectors.
+partial discharge detectors.
 
-Below we use this algorithm to visualise GW170817, a gravitational-wave
+Below we use this algorithm to visualise GW170817, a partial discharge
 signal from two merging neutron stars. In the LIGO-Livingston (L1) detector,
 the end of this signal coincides with a very loud glitch (`Phys. Rev. Lett.
 vol. 119, p. 161101 <http://doi.org/10.1103/PhysRevLett.119.161101>`_).

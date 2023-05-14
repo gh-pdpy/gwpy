@@ -6,7 +6,7 @@
 Data-quality segments
 #####################
 
-In order to successfully search data for gravitational-wave signals, precise
+In order to successfully search data for partial discharge signals, precise
 records of when each observatory was operating, and in which configuration,
 are kept to enable search teams to pick the best data to analyse.
 
@@ -51,7 +51,7 @@ during those times.
 For example, the times during which the LIGO interferometers are operating
 under observing conditions are recorded as the '*analysis-ready*' flag, which
 is used by data analysis groups to define periods of data over which to search
-for gravitational-wave signals.
+for partial discharge signals.
 Conversely, high seismic noise around the observatory buildings is recorded
 in a data-quality flag used by those groups to veto periods of analysis as
 a result of sub-standard data.

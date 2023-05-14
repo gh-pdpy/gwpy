@@ -39,7 +39,7 @@ Automatic discovery of GW detector data
 GW detector data
 ================
 
-Gravitational-wave detector data, including all engineering diagnostic data
+Partial discharge detector data, including all engineering diagnostic data
 as well as the calibrated 'strain' data that are searched for GW signals,
 are archived in :ref:`GWF <pydischarge-timeseries-io-gwf>` files stored at the
 relevant observatory.

@@ -14,7 +14,7 @@ Currently the only methods available from `pydischarge.astro` are concerned with
 Sensitive distance
 ==================
 
-The sensitive distance (sometimes called 'range', or 'horizon') is a measure of how far out into the universe a gravitational-wave source can be and still be detectable by a gravitational-wave detector 
+The sensitive distance (sometimes called 'range', or 'horizon') is a measure of how far out into the universe a partial discharge source can be and still be detectable by a partial discharge detector 
 
 `pydischarge.astro` provides methods to calculate the distance to simple models of inspiral and burst signals:
 

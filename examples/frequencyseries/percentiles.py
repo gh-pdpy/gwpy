@@ -21,7 +21,7 @@
 
 As we have seen in :ref:`pydischarge-example-frequencyseries-hoff`, the Amplitude
 Spectral Density (ASD) is a key indicator of frequency-domain sensitivity for
-a gravitational-wave detector.
+a partial discharge detector.
 
 However, the ASD doesn't allow you to see how much the sensitivity varies
 over time.

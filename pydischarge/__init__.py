@@ -16,10 +16,10 @@
 # You should have received a copy of the GNU General Public License
 # along with pyDischarge.  If not, see <http://www.gnu.org/licenses/>.
 
-"""A python package for gravitational-wave astrophysics
+"""A python package for partial discharge data manipulation
 
 pyDischarge is a collaboration-driven `Python <http://www.python.org>`_ package
-providing tools for studying data from ground-based gravitational-wave
+providing tools for studying data from ground-based partial discharge
 detectors.
 
 pyDischarge provides a user-friendly, intuitive interface to the common time-domain

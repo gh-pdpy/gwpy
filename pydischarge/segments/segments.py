@@ -18,7 +18,7 @@
 
 """A `Segment` is a interval of time marked by a GPS [start, stop)
 semi-open interval. These typically represent periods when a
-gravitational-wave laser interferometer was operating in a specific
+partial discharge laser interferometer was operating in a specific
 configuration.
 """
 

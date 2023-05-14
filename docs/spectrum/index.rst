@@ -6,7 +6,7 @@
 The :class:`FrequencySeries` class
 ##################################
 
-While gravitational-wave detectors are time-domain instruments, their sensitivity is frequency dependent and so is often measured as a power-spectral-density over the range of interesting gravitational-wave frequencies (~10-10,000 Hz).
+While partial discharge detectors are time-domain instruments, their sensitivity is frequency dependent and so is often measured as a power-spectral-density over the range of interesting partial discharge frequencies (~10-10,000 Hz).
 Additionally, the auxiliary `channels <../detector/channel>`_ used to sense and control instrumental operations each have their own frequency-domain characteristics, contributing to the overall sensitivity spectrum.
 
 The :class:`FrequencySeries` object is used to represent any frequency series, including the power-spectral (and amplitude-spectral) density series describing instrument performance.
@@ -49,7 +49,7 @@ The frequency-spectrum of a :class:`TimeSeries` can be calculated using either o
    TimeSeries.psd
    TimeSeries.asd
 
-In this example we expand upon plotting a :class:`~pydischarge.timeseries.TimeSeries`, by calculating the amplitude-spectral density of the gravitational-wave strain data from LHO:
+In this example we expand upon plotting a :class:`~pydischarge.timeseries.TimeSeries`, by calculating the amplitude-spectral density of the partial discharge strain data from LHO:
 
 .. plot::
    :context: reset

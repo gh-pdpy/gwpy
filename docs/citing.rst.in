@@ -11,7 +11,7 @@ publication, please acknowledge this by citing the
    .. code-block:: bibtex
 
       @article{pydischarge,
-          title = "{pyDischarge: A Python package for gravitational-wave astrophysics}",
+          title = "{pyDischarge: A Python package for partial discharge data manipulation}",
          author = {{Macleod}, D.~M. and {Areeda}, J.~S. and {Coughlin}, S.~B. and {Massinger}, T.~J. and {Urban}, A.~L.},
         journal = {SoftwareX},
          volume = 13,
@@ -27,7 +27,7 @@ publication, please acknowledge this by citing the
    .. code-block::
 
       TY  - JOUR
-      T1  - pyDischarge: A Python package for gravitational-wave astrophysics
+      T1  - pyDischarge: A Python package for partial discharge data manipulation
       AU  - Macleod, Duncan M.
       AU  - Areeda, Joseph S.
       AU  - Coughlin, Scott B.
@@ -48,7 +48,7 @@ publication, please acknowledge this by citing the
    .. code-block::
 
       %0 Journal Article
-      %T pyDischarge: A Python package for gravitational-wave astrophysics
+      %T pyDischarge: A Python package for partial discharge data manipulation
       %A Macleod, Duncan M.
       %A Areeda, Joseph S.
       %A Coughlin, Scott B.
@@ -66,7 +66,7 @@ publication, please acknowledge this by citing the
    .. code-block::
 
       RT Journal
-      T1 pyDischarge: A Python package for gravitational-wave astrophysics
+      T1 pyDischarge: A Python package for partial discharge data manipulation
       A1 Macleod, Duncan M.
       A1 Areeda, Joseph S.
       A1 Coughlin, Scott B.

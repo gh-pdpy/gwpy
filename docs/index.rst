@@ -17,7 +17,7 @@
       `click here <../stable/>`_.
 
 pyDischarge is a collaboration-driven `Python <http://www.python.org>`_ package
-providing tools for studying data from ground-based gravitational-wave
+providing tools for studying data from ground-based partial discharge
 detectors.
 
 pyDischarge provides a user-friendly, intuitive interface to the common time-domain

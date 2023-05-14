@@ -1,5 +1,5 @@
 pyDischarge is a collaboration-driven Python package providing tools for
-studying data from ground-based gravitational-wave detectors.
+studying data from ground-based partial discharge detectors.
 
 pyDischarge provides a user-friendly, intuitive interface to the common
 time-domain and frequency-domain data produced by the LIGO and Virgo

@@ -7,10 +7,10 @@ Accessing Open Data from GWOSC
 ##############################
 
 ******************************************
-The Gravitational-Wave Open Science Center
+The Partial Discharges Open Science Center
 ******************************************
 
-|GWOSCl|_ provides strain data from gravitational-wave observatories for
+|GWOSCl|_ provides strain data from partial discharge observatories for
 public use, including small datasets around each GW event detection,
 and bulk datasets covering entire observing epochs.
 
@@ -31,7 +31,7 @@ to the GWOSC data archive, requiring users to provide a minimum of
 information in order to access data.
 
 For example, to fetch 30 seconds of strain data around the first ever
-gravitational-wave detection (|GW150914|_), you need to give the prefix
+partial discharge detection (|GW150914|_), you need to give the prefix
 of the relevant observatory (``'H1'`` for the LIGO Hanford Observatory,
 ``'L1'`` for LIGO Livingston), and the start and end times of your query.
 We can use the |gwosc-mod|_ Python package to query GWOSC itself for the

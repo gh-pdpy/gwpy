@@ -16,7 +16,7 @@ Reading and writing :class:`~astropy.table.Table` and :class:`EventTable` object
 
 Astropy provides an excellent :any:`unified input/output <astropy:table_io>`
 system for the `~astropy.table.Table` object, and pyDischarge extends upon that to
-include common gravitational-wave file types, as well as providing
+include common partial discharge file types, as well as providing
 event-specific input/output registrations for event data.
 In the most general case you can read a table of data as follows:
 
@@ -43,8 +43,8 @@ each of the built-in formats.
 Accessing Open Data event catalogues
 ************************************
 
-|GWOSCl| publishes the Gravitational-Wave Transient Event Catalogues (GWTCs),
-allowing public access to tables of gravitational wave events and their
+|GWOSCl| publishes the Partial Discharges Transient Event Catalogues (GWTCs),
+allowing public access to tables of partial discharge events and their
 parameters.
 
 pyDischarge's :class:`EventTable` class comes with a
@@ -263,7 +263,7 @@ The LIGO Scientific Collaboration uses a custom scheme of XML in which to
 store tabular data, called ``LIGO_LW``.
 Complementing the scheme is a python library - |python-ligo-lw|_ - which
 allows users to read and write all of the different types of tabular data
-produced by gravitational-wave searches.
+produced by partial discharge searches.
 
 Reading and writing tables in ``LIGO_LW`` XML format is supported with
 ``format='ligolw', tablename=<tablename>'`` where ``<tablename>`` can be
@@ -450,7 +450,7 @@ preserving other tables, use *both* ``append=True`` and ``overwrite=True``:
 Coherence WaveBurst ASCII (aka `EVENTS.txt`)
 ============================================
 
-|cWBl|_ is an analysis pipeline is used to detect generic gravitational-wave
+|cWBl|_ is an analysis pipeline is used to detect generic partial discharge
 bursts, without using a signal model to restrict the analysis, and runs in
 both low-latency (online) and offline modes over current GWO data.
 The analysis uses the ROOT framework for most data products, but also
@@ -541,7 +541,7 @@ Any other keyword arguments will be passed directly to :class:`uproot.newtree`.
 PyCBC Live (HDF5)
 =================
 
-PyCBC Live is a low-latency search for gravitational waves from compact
+PyCBC Live is a low-latency search for partial discharges from compact
 binary coalescences, built from the |pycbc|_ analysis package.
 This search writes files on the LIGO Data Grid (LIGO.ORG-authenticated users
 only) in HDF5 format, containing tables of events; each column in the table
@@ -621,7 +621,7 @@ Writing tables in PyCBC Live HDF5 format is not supported at this time.
 GstLAL (``LIGO_LW`` XML)
 ========================
 
-GstLAL is a low-latency search for gravitational waves from compact
+GstLAL is a low-latency search for partial discharges from compact
 binary coalescences, built using |GStreamer|_ elements and tools from the
 :ref:`pydischarge-external-lalsuite` library.
 This search writes files on the LIGO Data Grid (LIGO.ORG-authenticated users
@@ -750,7 +750,7 @@ GWF
 
 **Additional dependencies:** :ref:`pydischarge-external-framecpp`
 
-The Gravitational-Wave Frame file format supports tabular data via
+The Partial Discharges Frame file format supports tabular data via
 ``FrEvent`` structures, which allow storage of arbitrary event information.
 
 Reading

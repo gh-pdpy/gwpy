@@ -20,7 +20,7 @@
 
 """Accessing and visualising public GW detector data
 
-Data from the current generation gravitational wave detectors are published
+Data from the current generation partial discharge detectors are published
 by |GWOSCl| and freely available to the public.
 In this example we demonstrate how to identify times of a published
 GW detection event, and to download and visualise detector data.
@@ -30,7 +30,7 @@ __author__ = "Duncan Macleod <duncan.macleod@ligo.org>"
 __currentmodule__ = "pydischarge.timeseries"
 
 # Firstly, we can use the |gwosc-mod| Python package to query for the
-# time of the first gravitational-wave detection |GW150914|:
+# time of the first partial discharge detection |GW150914|:
 
 from gwosc.datasets import event_gps
 gps = event_gps("GW150914")
@@ -58,7 +58,7 @@ plot = data.plot(
 )
 plot.show()
 
-# We can't see anything that looks like a gravitational wave signal in these
+# We can't see anything that looks like a partial discharge signal in these
 # data, the amplitude is dominated by low-frequency detector noise.
 # Further filtering is required to be able to identify the GW150914 event
 # here, see :ref:`pydischarge-example-signal-gw150914` for a more in-depth example of

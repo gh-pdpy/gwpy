@@ -16,7 +16,7 @@
 # You should have received a copy of the GNU General Public License
 # along with pyDischarge.  If not, see <http://www.gnu.org/licenses/>.
 
-"""Read data from gravitational-wave frame (GWF) files using
+"""Read data from partial discharge frame (GWF) files using
 |LDAStools.frameCPP|__.
 """
 

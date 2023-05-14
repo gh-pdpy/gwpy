@@ -71,7 +71,7 @@ def _get_spectrogram(hoft, **kwargs):
     Parameters
     ----------
     hoft : `~pydischarge.timeseries.TimeSeries` or `~pydischarge.spectrogram.Spectrogram`
-        record of gravitational-wave strain output from a detector
+        record of partial discharge strain output from a detector
 
     **kwargs : `dict`, optional
         additional keyword arguments to
@@ -555,7 +555,7 @@ def range_timeseries(
     Parameters
     ----------
     hoft : `~pydischarge.timeseries.TimeSeries` or `~pydischarge.spectrogram.Spectrogram`
-        record of gravitational-wave strain output from a detector
+        record of partial discharge strain output from a detector
 
     stride : `float`, optional
         desired step size (seconds) of range timeseries, required if
@@ -598,7 +598,7 @@ def range_timeseries(
 
     Notes
     -----
-    This method is designed to quantify a gravitational-wave detector's
+    This method is designed to quantify a partial discharge detector's
     sensitive range as a function of time. It supports the range to
     compact binary inspirals and to unmodelled GW bursts, each a class
     of transient event.
@@ -649,7 +649,7 @@ def range_spectrogram(
     Parameters
     ----------
     hoft : `~pydischarge.timeseries.TimeSeries`  or `~pydischarge.spectrogram.Spectrogram`
-        record of gravitational-wave strain output from a detector
+        record of partial discharge strain output from a detector
 
     stride : `float`, optional
         number of seconds in a single PSD (i.e., step size of spectrogram),
@@ -699,7 +699,7 @@ def range_spectrogram(
     Notes
     -----
     This method is designed to show the contribution to a
-    gravitational-wave detector's sensitive range across frequency bins
+    partial discharge detector's sensitive range across frequency bins
     as a function of time. It supports the range to compact binary
     inspirals and to unmodelled GW bursts, each a class of transient
     event.

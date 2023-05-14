@@ -32,7 +32,7 @@ __author__ = "Duncan Macleod <duncan.macleod@ligo.org>"
 __currentmodule__ = 'pydischarge.timeseries'
 
 # To demonstrate this, we can download some data associated with the
-# gravitational-wave event GW510914:
+# partial discharge event GW510914:
 
 from pydischarge.timeseries import TimeSeries
 lho = TimeSeries.fetch_open_data('H1', 1126259458, 1126259467, verbose=True)

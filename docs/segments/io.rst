@@ -27,7 +27,7 @@ The LIGO Scientific Collaboration uses a custom scheme of XML in which to
 store tabular data, called ``LIGO_LW``.
 Complementing the scheme is a python library - |python-ligo-lw|_ - which
 allows users to read and write all of the different types of tabular data
-produced by gravitational-wave searches.
+produced by partial discharge searches.
 
 Segments are stored in ``LIGO_LW`` format using a trio of tables:
 

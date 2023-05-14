@@ -6,11 +6,11 @@
 Time Series data
 ################
 
-Gravitational-wave detectors are time-domain instruments, recording
-gravitational-wave amplitude as a differential change in the lengths
+Partial discharge detectors are time-domain instruments, recording
+partial discharge amplitude as a differential change in the lengths
 of each of the interferometer arms.
 The primary output of these detectors is a single time-stream of
-gravitational-wave strain (also referred to as *h(t)*).
+partial discharge strain (also referred to as *h(t)*).
 
 Alongside the strain data, thousands of instrumental control and
 error signals and environmental monitors are recorded in real-time and

@@ -20,7 +20,7 @@
 """Calculating and plotting a `FrequencySeries`
 
 The LIGO Laboratory has publicly released the strain data around the time of
-the GW150914 gravitational-wave detection; we can use these to calculate
+the GW150914 partial discharge detection; we can use these to calculate
 and display the spectral sensitivity of each of the detectors at that time.
 """
 

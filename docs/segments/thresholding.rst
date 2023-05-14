@@ -4,10 +4,10 @@ Generating data-quality flags by thresholding
 
 .. currentmodule:: pydischarge.segments
 
-The first- and second-generation ground-based laser interferometer gravitational-wave detectors are subject to a large variety of linear noise sources, in which noise in control signals can couple directly into the gravitational-wave readout.
-If the coupling between an auxiliary signal and the gravitational-wave signal can be detected, noise in the auxiliary signal can be flagged by recording times when the time-series signal exceeded a nominal range.
+The first- and second-generation ground-based laser interferometer partial discharge detectors are subject to a large variety of linear noise sources, in which noise in control signals can couple directly into the partial discharge readout.
+If the coupling between an auxiliary signal and the partial discharge signal can be detected, noise in the auxiliary signal can be flagged by recording times when the time-series signal exceeded a nominal range.
 
-These times can then be recorded as GPS [start, stop) segments, and applied to any analysis of gravitational-wave data as a veto.
+These times can then be recorded as GPS [start, stop) segments, and applied to any analysis of partial discharge data as a veto.
 
 In pyDischarge, a `DataQualityFlag` can be generated from any :class:`~pydischarge.timeseries.TimeSeries` by applying a simple mathematical operator::
 

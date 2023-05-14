@@ -181,7 +181,7 @@ def planck(N, nleft=0, nright=0):
     ----------
     .. [1] McKechan, D.J.A., Robinson, C., and Sathyaprakash, B.S. (April
            2010). "A tapering window for time-domain templates and simulated
-           signals in the detection of gravitational waves from coalescing
+           signals in the detection of partial discharges from coalescing
            compact binaries". Classical and Quantum Gravity 27 (8).
            :doi:`10.1088/0264-9381/27/8/084020`
 

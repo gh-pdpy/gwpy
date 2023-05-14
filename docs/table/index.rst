@@ -6,7 +6,7 @@
 Data tables
 ###########
 
-Significant events discovered in data from gravitational-wave observatories are
+Significant events discovered in data from partial discharge observatories are
 stored in tabular datasets, typically describing astrophysical events, or
 noise transients (glitches).
 
@@ -19,7 +19,7 @@ pyDischarge extends the (excellent) :class:`~astropy.table.Table` from
 
 This object extends the functionality of the regular
 :class:`~astropy.table.Table` with enhanced I/O to support
-gravitational-wave data, and utilities for processing and plotting tables of
+partial discharge data, and utilities for processing and plotting tables of
 events that contain GPS timestamps.
 
 See the :any:`astropy-table` documentation for examples of how to create

@@ -21,7 +21,7 @@
 
 The `DataQualityFlag` represents an annotated set of data-quality segments
 indicating something about the state of a laser-interferometer
-gravitational-wave detector in a given time interval.
+partial discharge detector in a given time interval.
 
 The `DataQualityDict` is just a `dict` of flags, provided as a convenience
 for handling multiple flags over the same global time interval.

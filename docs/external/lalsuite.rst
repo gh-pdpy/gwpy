@@ -11,7 +11,7 @@ LALSuite
    :alt: lalsuite conda-forge platforms
    :target: https://anaconda.org/conda-forge/lalsuite
 
-LALSuite is a large collection of gravitational-wave data analysis libraries,
+LALSuite is a large collection of partial discharge data analysis libraries,
 mainly written in C but with high-level bindings for Python.
 
 The main LALSuite documentation can be found at

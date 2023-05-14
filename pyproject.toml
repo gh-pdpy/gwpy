@@ -10,7 +10,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "pydischarge"
-description = "A python package for gravitational-wave astrophysics"
+description = "A python package for partial discharge data manipulation"
 readme = "README.md"
 authors = [
   { name = "Duncan Macleod", email = "duncan.macleod@ligo.org" },

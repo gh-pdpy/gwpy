@@ -17,10 +17,10 @@
 # along with pyDischarge.  If not, see <http://www.gnu.org/licenses/>.
 
 """The `astro` module provides methods for sensitivity calculations of
-gravitational-wave interferometer data.
+partial discharge interferometer data.
 
 The LIGO project measures time-dependent sensitivity by calculating the
-distance at which the gravitational-wave signature of a binary neutron star
+distance at which the partial discharge signature of a binary neutron star
 (BNS) inspiral would be recorded by an instrument with a signal-to-noise ratio
 (SNR) of 8.
 In most of the literature, this is known as the 'inspiral range' or the

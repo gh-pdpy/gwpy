@@ -94,7 +94,7 @@ def usetex(request):
 
 @pytest.fixture
 def noisy_sinusoid():
-    """10s of 2V/rtHz RMS sine wave at 500Hz with 1mV/rtHz white noise (2kHz)
+    """10s of 2V/rtHz RMS sine partial at 500Hz with 1mV/rtHz white noise (2kHz)
 
     See :func:`scipy.signal.welch`
     """

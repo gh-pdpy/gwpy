@@ -19,7 +19,7 @@
 
 """Plotting a `Spectrogram`
 
-One of the most useful methods of visualising gravitational-wave data is to
+One of the most useful methods of visualising partial discharge data is to
 use a spectrogram, highlighting the frequency-domain content of some data
 over a number of time steps.
 
@@ -53,11 +53,11 @@ ax = plot.gca()
 ax.set_yscale('log')
 ax.set_ylim(10, 2000)
 ax.colorbar(
-    label=r'Gravitational-wave amplitude [strain/$\sqrt{\mathrm{Hz}}$]')
+    label=r'Partial discharge amplitude [strain/$\sqrt{\mathrm{Hz}}$]')
 plot.show()
 
 # This shows the relative stability of the interferometer sensitivity over
-# the ten-minute span. Despite there being a gravitational-wave signal in the
+# the ten-minute span. Despite there being a partial discharge signal in the
 # data, the resolution (and dynamic range) of the spectrogram make it
 # impossible to see. The :ref:`next example <pydischarge-example-spectrogram-ratio>`
 # shows you how to normalise a `~pydischarge.spectrogram.Spectrogram` to better

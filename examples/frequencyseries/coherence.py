@@ -63,4 +63,4 @@ plot.show()
 # We can clearly see the correlation between the periscope motion and the
 # strain data between 100 Hz and 1000 Hz. Once this was discovered the
 # motion was damped by modifying the structure of the periscope itself,
-# reducing the coupling into the gravitational-wave strain output.
+# reducing the coupling into the partial discharge strain output.

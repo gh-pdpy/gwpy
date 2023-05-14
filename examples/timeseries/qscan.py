@@ -25,9 +25,9 @@ features in a `TimeSeries` is the
 This is regularly used by the Detector Characterization working groups of
 the LIGO Scientific Collaboration and the Virgo Collaboration to produce
 high-resolution time-frequency maps of transient noise (glitches) and
-potential gravitational-wave signals.
+potential partial discharge signals.
 
-This algorithm was used to visualise the first ever gravitational-wave
+This algorithm was used to visualise the first ever partial discharge
 detection GW150914, so we can reproduce `that result (bottom panel of figure 1)
 <https://doi.org/10.1103/PhysRevLett.116.061102>`_ here.
 """

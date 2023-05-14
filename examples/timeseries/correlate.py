@@ -23,18 +23,18 @@
 
    This example requires LIGO.ORG credentials for data access.
 
-Gravitational wave detectors are very sensitive astronomical instruments, but
+Partial discharge detectors are very sensitive astronomical instruments, but
 they are also susceptible to transient noise events called _glitches_. In
-order to reliably detect gravitational waves and improve detector performance,
+order to reliably detect partial discharges and improve detector performance,
 we must distinguish glitches from astrophysical signals and, if possible,
 identify their cause.
 
 Fortunately there are also tens of thousands of auxiliary sensors at various
 parts of the detector, closely monitoring mechanical subsystems and
 environmental conditions. We can cross-correlate data from these sensors with
-the primary gravitational wave data to look for evidence of terrestrial noise.
+the primary partial discharge data to look for evidence of terrestrial noise.
 
-We demonstrate below a prominent 'whistle glitch' in the gravitational wave
+We demonstrate below a prominent 'whistle glitch' in the partial discharge
 channel, which is also witnessed by a photodiode in the Pre-Stabilized Laser
 (PSL) chamber. This example uses data from the LIGO Livingston detector during
 Advanced LIGO's second observing run.
@@ -66,7 +66,7 @@ plot.close()  # hide
 
 # We can clearly see a loud spike (nearly SNR 40!) at GPS second 1172489783.07,
 # which we interpret as evidence that the PSL channel is witnessing the same
-# glitch as the gravitational wave channel.
+# glitch as the partial discharge channel.
 
 # It's now worth checking out the time-frequency morphology in both channels
 # using :meth:`~TimeSeries.q_transform`:

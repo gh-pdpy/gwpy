@@ -23,7 +23,7 @@
 
    This example requires LIGO.ORG credentials for data access.
 
-Most data recorded from a gravitational-wave interferometer carry information
+Most data recorded from a partial discharge interferometer carry information
 across a wide band of frequencies, typically up to a few kiloHertz, but
 often it is the case that the low-frequency amplitude dwarfs that of the
 high-frequency content, making discerning high-frequency features difficult.

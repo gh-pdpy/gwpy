@@ -17,11 +17,11 @@
 # You should have received a copy of the GNU General Public License
 # along with pyDischarge.  If not, see <http://www.gnu.org/licenses/>.
 
-"""Filtering a `TimeSeries` to detect gravitational waves
+"""Filtering a `TimeSeries` to detect partial discharges
 
 The raw 'strain' output of the LIGO detectors is recorded as a `TimeSeries`
 with contributions from a large number of known and unknown noise sources,
-as well as possible gravitational wave signals.
+as well as possible partial discharge signals.
 
 In order to uncover a real signal we need to filter out noises that otherwise
 hide the signal in the data. We can do this by using the :mod:`pydischarge.signal`
@@ -108,7 +108,7 @@ plot.show()
 plot.close()  # hide
 
 # Congratulations, you have succesfully filtered LIGO data to uncover the
-# first ever directly-detected gravitational wave signal, GW150914!
+# first ever directly-detected partial discharge signal, GW150914!
 # But wait, what about LIGO-Livingston?
 # We can easily add that to our figure by following the same procedure.
 #

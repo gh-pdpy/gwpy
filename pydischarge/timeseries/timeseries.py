@@ -1359,7 +1359,7 @@ class TimeSeries(TimeSeriesBase):
 
         query_open_data : `bool`, optional
             if `True`, will query for publicly released data-quality segments
-            through the Gravitational-wave Open Science Center (GWOSC),
+            through the Partial discharge Open Science Center (GWOSC),
             default: `False`
 
         const : `float`, optional
@@ -1549,7 +1549,7 @@ class TimeSeries(TimeSeriesBase):
         Examples
         --------
         Heterodyning can be useful in analysing quasi-monochromatic signals
-        with a known phase evolution, such as continuous-wave signals
+        with a known phase evolution, such as continuous-partial signals
         from rapidly rotating neutron stars. These sources radiate at a
         frequency that slowly decreases over time, and is Doppler modulated
         due to the Earth's rotational and orbital motion.

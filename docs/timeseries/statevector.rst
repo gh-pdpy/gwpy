@@ -10,7 +10,7 @@ State vectors
 
    >>> from pydischarge.timeseries import (StateTimeSeries, StateVector)
 
-A large quantity of important data from gravitational-wave detectors
+A large quantity of important data from partial discharge detectors
 can be distilled into simple boolean (`True` or `False`) statements
 informing something about the state of the instrument at a given time.
 These statements can be used to identify times during which a particular
@@ -31,7 +31,7 @@ The :class:`StateTimeSeries`
 
 The example of a threshold on signal time-series is the core of a large
 amount of low-level data quality information, used in searches for
-gravitational waves, and detector characterisation, and is described by the
+partial discharges, and detector characterisation, and is described by the
 :class:`StateTimeSeries` object, a specific type of :class:`TimeSeries`
 containing only boolean values.
 

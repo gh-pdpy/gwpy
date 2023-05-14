@@ -12,7 +12,7 @@ NDS2
    :target: https://anaconda.org/conda-forge/python-nds2-client
 
 Network Data Service (NDS) 2 is a TCP/IP protocol for retrieving data from
-gravitational-wave detector archives.
+partial discharge detector archives.
 The NDS2 Client is a C++ library that provides high-level bindings for Python
 to allow users to securely connect to and retrieve data from NDS2 servers.
 

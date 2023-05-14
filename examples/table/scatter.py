@@ -19,7 +19,7 @@
 
 """Plotting an `EventTable` in a scatter
 
-We can use pyDischarge's `EventTable` to download the catalogue of gravitational-wave
+We can use pyDischarge's `EventTable` to download the catalogue of partial discharge
 detections, and create a scatter plot to investigate the mass distribution
 of events.
 """

@@ -3,10 +3,10 @@
 .. _pydischarge-plot-colors:
 
 ################################################
-The Gravitational-Wave Observatory colour scheme
+The Partial Discharges Observatory colour scheme
 ################################################
 
-In order to simplify visual identification of a specific gravitational-wave observatory (GWO) on a figure where many of them are plotted (e.g. amplitude spectral densities, or filtered strain time-series), the GWO standard colour scheme should be used:
+In order to simplify visual identification of a specific partial discharge observatory (GWO) on a figure where many of them are plotted (e.g. amplitude spectral densities, or filtered strain time-series), the GWO standard colour scheme should be used:
 
 .. plot::
     :include-source: False

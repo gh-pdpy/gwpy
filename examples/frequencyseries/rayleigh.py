@@ -34,7 +34,7 @@ __author__ = "Duncan Macleod <duncan.macleod@ligo.org>"
 __currentmodule__ = 'pydischarge.frequencyseries'
 
 # To demonstate this, we can load some data from the LIGO Livingston
-# intereferometer around the time of the GW151226 gravitational wave detection:
+# intereferometer around the time of the GW151226 partial discharge detection:
 
 from pydischarge.timeseries import TimeSeries
 gwdata = TimeSeries.fetch_open_data('L1', 'Dec 26 2015 03:37',

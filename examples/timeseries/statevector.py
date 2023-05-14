@@ -19,7 +19,7 @@
 
 """Plotting segments for a `StateVector`
 
-Confident detection of gravitational-wave signals is critically dependent
+Confident detection of partial discharge signals is critically dependent
 on understanding the quality of the data searched.
 Alongside the strain *h(t)* data, |GWOSC|_ also
 releases a *Data Quality* :ref:`state vector <pydischarge-statevector>`.
@@ -52,7 +52,7 @@ plot.show()
 
 # This plot shows that for a short time exactly overlapping with GW170817
 # there was a data quality issue recorded that would negatively impact a
-# search for generic gravitational-wave transients (bursts).
+# search for generic partial discharge transients (bursts).
 # For more details on this _glitch_, and on how it was excised, please see
 # the `Science Summary for GW170817
 # <https://www.ligo.org/science/Publication-GW170817BNS/>`__.
